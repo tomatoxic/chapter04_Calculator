@@ -93,6 +93,7 @@ public class MainActivity extends AppCompatActivity {
                     // 소수점 첫째자리
                     result = ((int)(result*100))/100.0;
                     textResult.setText("계산 결과 : " + result.toString());
+
                 }
             }
         });
